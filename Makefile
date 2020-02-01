@@ -5,7 +5,7 @@ deps:
 	pip install -r test_requirements.txt
 
 lint:
-
+	flake8 hello_world.txt test
 
 run:
 	python main.py
